@@ -1,0 +1,16 @@
+# Plum HUD v3.0.0 — pip requirements
+# Install all: pip install -r requirements.txt
+
+# Core (required)
+Pillow>=10.0.0          # Logo load, image ops
+aiohttp>=3.9.0          # Async concurrent miner polling
+requests>=2.31.0        # Discord webhook + sync fallback poller
+
+# Analytics charts (optional but recommended)
+matplotlib>=3.8.0
+
+# System tray icon (optional)
+plyer>=2.1.0
+
+# Windows background blur (optional, Windows 10/11 only)
+# pywin32>=306
